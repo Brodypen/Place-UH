@@ -26,7 +26,7 @@ for (let i = 0; i < 22; i++) {
     htmlElements[i * 20 + j].onmouseover = //onTileHovered(j, i, this);
       function () {
         const pos = document.getElementById("pos");
-        pos.innerText = "(" + (j + 392) + "," + (i + 298) + ")";
+        pos.innerText = "(" + (j + 20) + "," + (i + 252) + ")";
         pos.style.left = j * 16 + 16 + "px";
         pos.style.top = i * 16 - 6 + "px";
         htmlElements[i * 20 + j].target = "_blank";
@@ -34,11 +34,11 @@ for (let i = 0; i < 22; i++) {
         //new.reddit.com/r/place/?cx=1001&amp%3Bcy=0&amp%3Bpx=20&cy=170&px=6
         htmlElements[i * 20 + j].href =
           "https://new.reddit.com/r/place/?cx=" +
-          (j + 392) +
+          (j + 20) +
           "&amp%3Bcy=" +
-          (i + 298) +
+          (i + 252) +
           "&amp%3Bpx=7&cy=" +
-          (i + 298) +
+          (i + 252) +
           "&px=4";
         //   "https://new.reddit.com/r/place/?cx=" +
         //   (j + 392) +
